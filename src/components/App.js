@@ -31,10 +31,10 @@ const App = () => {
   return (
     <main>
       <img
-        src={imageData[currentImage].url}
-        alt=""
-        className="big-image"
         key={currentImage}
+        src={imageData[currentImage].url}
+        alt="corousel-image"
+        className="big-image"
       />
       <div className="button-wrapper">
         <Button text={"Önceki"} onClick={handleClickPrevious} />
